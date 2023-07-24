@@ -1,0 +1,151 @@
+.btm form {
+  position: relative;
+  display: inline-block;
+}
+
+.btm input {
+  padding: 13px 60px 10px 10px; 
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.send-button {
+  position: absolute;
+  right: 0px;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: darkcyan;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  width:190px;
+}
+.send-button:hover{
+  background-color: rgb(4, 49, 4);
+}
+.chat-container {
+  overflow-y: auto;
+  height: 515px;
+  border: 2px solid rgb(98, 108, 103);
+  border-radius: 5px;
+  margin-right: 20px;
+  background-image: url('salbg.jpg');
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px;
+  width: 100%;
+ 
+}.chatbox {
+  border: 1px solid rgb(66, 241, 162);
+  border-radius: 5px;
+  padding: 7px;
+  text-align: start;
+ 
+}
+
+.me .chatbox {
+  background-color: rgb(142, 238, 196);
+  margin-left: 1100px;
+  text-align: end;
+  justify-self: flex-end;
+
+}
+
+.other .chatbox {
+  background-color: bisque;
+
+}
+
+.main input {
+  size: 300px;
+  margin-top: 300px;
+  margin-left: 340px;
+  flex-grow: 1;
+  padding: 20px;
+  width: 400px;
+}
+
+.main {
+  background-image: url('salc.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 680px;
+}
+
+h3 {
+  background: linear-gradient(to right, #98f404, #f27b04, #df1010);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  font-size: 30px;
+  color: rgb(250, 248, 248);
+  height: 30px;
+}
+
+@media (max-width: 768px) {
+  .btm {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: brown;
+    padding: 10px;
+  }
+  
+  .btm .input-container {
+    display: flex;
+    flex-grow: 1;
+    margin-right: 10px;
+    
+  }
+  
+  .btm input {
+    flex-grow: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    
+  }
+}
+  .btm button {
+    background-color: darkcyan;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+
+.main .bt {
+  margin-left: 630px;
+  height: 50px;
+  width: 100px;
+  background-color: brown;
+}
+
+.main button {
+  background-color: darkcyan;
+  font-size: 17px;
+   background-color: brown;
+}
+.btm .input-container {
+  margin-bottom: 10px;
+  width: 100%;
+ 
+}
+.all{
+  background-color: rgb(17, 37, 37);
+}
+.namee{
+  background: linear-gradient(to right, #ff0000, #04f2ea, #0000ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 20px;
+}

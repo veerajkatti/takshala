@@ -1,0 +1,76 @@
+.outsideborder{
+    height: 300px;
+    border: 5px solid whitesmoke;
+    border-radius: 2px;
+    position: relative;
+    width:100%;
+    padding: 2px;
+  }
+
+    .manage-employee{
+      font-size: x-large;
+      color: darkblue;
+      justify-content: center;
+    }
+
+  .daily{
+    display: flex;
+    flex-direction: column;
+  }
+
+.dashboard-header{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding:20px;
+    margin:20px;
+  }
+
+  .bg-pink {
+   border: 2px solid rgba(194, 182, 182, 0.648);
+    color:black;
+    width: 250px;
+    height:150px;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px 10px lightblue;
+  }
+  .bg-purple {
+    border: 2px solid rgba(194, 182, 182, 0.648);
+    color:black;
+    width: 250px;
+    height:150px;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px 10px rgb(235, 235, 217);
+  }
+  .bg-cyan {
+    border: 2px solid rgba(194, 182, 182, 0.648);
+    color:black;
+    width: 250px;
+    height:150px;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px 10px rgb(227, 189, 174);
+  }
+  
+  .bg-ash{
+    border: 2px solid rgba(194, 182, 182, 0.648);
+    color:black;
+    width: 250px;
+    height:150px;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px 10px rgb(249, 200, 200);
+  }
+  .bg-deep-blue {
+    background: deepskyblue;
+    color: white;
+  }
+  .bg-pale {
+    background: #eb4961;
+    color:white;
+  }
